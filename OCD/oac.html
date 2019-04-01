@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>OCD</title>
+<link rel="stylesheet" href="oac.css">
+<!--scripts-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+<script type="text/javascript" src="oac.js"></script>
+</head>
+<body>
+
+<!--OBSESSIONS-->
+<div class="obs"><p id="obs">obsessions</p></div>
+
+<!--GROUPS-->
+	<!--germs&contamination-->
+	<div class="gac"><p id="gac">germs/<br>contamin-<br>ation</p></div>
+	<!--illness&death-->
+	<div class="iad"><p id="iad">illness/<br>death</p></div>
+	<!--personality&body-->
+	<div class="pab"><p id="pab">person-<br>ality/<br>body</p></div>
+	<!--destruction&violence-->
+	<div class="dav"><p id="dav">destruc-<br>tion/<br>violence</p></div> 
+	<!--relationships-->
+	<div class="rel"><p id="rel">relation-<br>ships</p></div>
+	<!--other-->
+	<div class="oth"><p id="oth">other</p></div>
+
+<!--OBSESSIONS-->
+<div class="obsessions">
+<ul>
+	<li data-value="gac" id="feces">feces</li>
+	<li data-value="gac" id="urine">urine</li>
+	<li data-value="gac" id="saliva">saliva</li>
+	<li data-value="gac" id="pus">pus</li>
+	<li data-value="gac" id="sweat">sweat</li>
+	<li data-value="gac" id="blood">blood</li>
+	<li data-value="gac" id="smellofmeat">the smell of meat</li>
+	<li data-value="gac" id="tasteofmeat">the taste of meat</li>
+	<li data-value="gac" id="rottingwood">rotting wood</li>
+	<li data-value="gac" id="smellofrot">the smell of rot</li>
+	<li data-value="gacpab" id="rottingfood">rotting food</li>
+	<li data-value="gacpab" id="foodswithdairy">foods with dairy</li>
+	
+	<li data-value="iad" id="gettingcancer">getting cancer</li>
+	<li data-value="iad" id="givingcancer">giving a loved one cancer</li>
+	<li data-value="iad" id="gettinglosis">getting tuberculosis</li>
+	<li data-value="iad" id="givinglosis">giving a loved one tuberculosis</li>
+	<li data-value="iad" id="contlovedone">contaminating a loved one</li>
+	<li data-value="iadpab" id="touchingme">people i'm not comfortable with touching me</li>
+	<li data-value="iadrel" id="deathoflovedone">the death of a loved one</li>
+	<li data-value="iad" id="dying">dying</li> 
+	
+	<li data-value="pab" id="losepersonality">losing my personality</li>
+	<li data-value="pab" id="losememory">losing my memory</li>
+	<li data-value="pab" id="switchbodies">switching bodies with people</li>
+	<li data-value="pab" id="losehair">losing my hair</li>
+	<li data-value="pab" id="changingbody">my body changing too much</li>
+	<li data-value="pab" id="changinghaircolor">my hair color changing</li>
+	<li data-value="pab" id="loselimb">losing a limb</li>
+	<li data-value="pab" id="blind">going blind</li>
+	<li data-value="pab" id="deaf">going deaf</li>
+	<li data-value="pab" id="color-blind">going color-blind</li>
+	<li data-value="pab" id="mute">becoming mute</li>
+	<li data-value="pab" id="anosmic">becoming anosmic</li>
+	<li data-value="pab" id="permanesthesia">permanent anesthesia</li>
+	<li data-value="pab" id="paralyzation">paralyzation</li> 
+	
+	<li data-value="dav" id="tsunami">tsunami</li>
+	<li data-value="dav" id="floods">floods</li>
+	<li data-value="dav" id="bombs">bombs</li>
+	<li data-value="dav" id="war">war</li>
+	<li data-value="dav" id="buildingfall">buildings falling down</li>
+	<li data-value="dav" id="infrastructurefail">infrastucture failing</li>
+	<li data-value="dav" id="cars">cars</li>
+	<li data-value="dav" id="caraccidents">car accidents</li> 
+	
+	<li data-value="rel" id="nobodycares">that nobody cares about me</li>
+	<li data-value="rel" id="plottingagainstme">people plotting against me</li>
+	<li data-value="rel" id="friendsleaveme">my friends leaving me</li>
+	<li data-value="rel" id="thinkimcrazy">people thinking i'm crazy</li>
+	<li data-value="rel" id="emotionalrel">emotional/romantic relationships</li>
+	<li data-value="rel" id="betrayel">betrayel in a relationship</li>
+	<li data-value="rel" id="hateme">that people hate me</li>
+	<li data-value="rel" id="forgetme">that people will forget about me</li> 
+	<li data-value="reldav" id="hit">getting hit by a loved one</li> 
+	
+	<li data-value="oth" id="three">the number 3</li>
+	<li data-value="oth" id="blue">the color blue</li>
+	<li data-value="oth" id="masks">people with masks</li>
+	<li data-value="oth" id="movietheatres">movie theatres</li>
+	<li data-value="oth" id="circuses">circuses</li>
+	<li data-value="oth" id="lackofsunlight">lack of sunlight</li> 
+</ul>	
+</div>
+
+<!--COMPULSIONS-->
+<div class="compulsions">
+<ul>
+	<li data-value="i" id="handwash">hand washing</li>
+	<li data-value="j" id="rub">rubbing</li>
+	<li data-value="k" id="scratch">scratching</li>
+	<li data-value="l" id="selfharm">self harm</li>
+	<li data-value="m" id="spit">spitting</li>
+	<li data-value="n" id="washorcleanthings">washing/cleaning things</li>
+	<li data-value="o" id="touchpeople">touching people</li>
+	<li data-value="p" id="touchthings">touching things</li>
+	<li data-value="q" id="touchobjects">touching objects together</li> 
+	<li data-value="r" id="repeatwords">repeating words</li>
+	<li data-value="s" id="repeatactions">repeating actions</li>
+	<li data-value="t" id="peoplerepeatwords">needing people to repeat words</li>
+	<li data-value="u" id="peoplerepeatactions">needing people to repeat actions</li>
+	<li data-value="v" id="repeatquestions">repeating questions</li>
+	<li data-value="x" id="reread">re-reading things</li>
+	<li data-value="w" id="rewatch">rewatching things</li>
+	<li data-value="y" id="arrangeorrearrange">arrancing/rearranging things</li>
+	<li data-value="z" id="destroyobjects">destroying objects</li>
+	<li data-value="aa" id="cutpeopleoff">cutting people off</li>
+	<li data-value="ab" id="lackoftrust">lack of trust</li> 
+</ul>
+</div>
+<div class="com"><p id="com">compulsions</p></div>
+<!--<div id="obsinfo">Obsessions are highly distressing and repeatative thoughts, urges, or mental images that cause anxiety. Individuals with Obsessive Compulsive Disorder are unable to control obsessions, despite often knowing that these thoughts, urges, or images are irrational. </div>
+<div id="obsme">On average I probably think of each obsession about once every 15 minutes. Some (such as feces) I think about as often as every 2 or 3 minutes throughout the day. They vary in severity, but are all consistent and repetative. </div>-->
+<!--BACK-->
+<a href="index.html"><div class="back"><p id="back"><</p></div></a>
+
+</body>
+</html>

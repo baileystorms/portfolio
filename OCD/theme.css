@@ -1,0 +1,119 @@
+body { 
+	background-color: black; 
+}
+
+a { 
+	text-decoration: none; 
+}
+
+.ocdbut {
+	display: inline-block;
+	position: fixed;
+	height: 40px;
+	width: 40px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: rgba(255,255,255,0.5);
+	border:1px solid rgba(255,255,255,0.5);
+	border-radius: 50%;
+}
+.ocdbut:hover{
+	background-color: rgba(255,255,255,0.7);
+}
+.ocdbut.black {
+	background-color: rgba(255,255,255,0)
+}
+
+.ocd {
+	display: inline-block;
+	position: fixed;
+	margin-top: 50px;
+	margin-left: 60px;
+	border: 1px solid white;
+	width: 650px;
+}
+#ocd {
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 200;
+	text-align: left;
+	color: white;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.mebut {
+	display: inline-block;
+	position: fixed;
+	height: 40px;
+	width: 40px;
+	margin-top: 275px;
+	margin-left: 1115px;
+	background-color: rgba(255,255,255,0.5);
+	border: 1px solid rgba(255,255,255,0.5);
+	border-radius: 50%;
+}
+.mebut:hover{
+	background-color: rgba(255,255,255,0.7);
+}
+.mebut.black{
+	background-color: rgba(255,255,255,0)
+}
+
+.me {
+	display: inline-block;
+	position: fixed;
+	margin-top: 325px;
+	margin-left: 450px;
+	border: 1px solid white;
+	width: 650px;
+}
+
+#me {
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 200;
+	text-align: left;
+	color: white;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+
+.cont {
+	display: inline-block;
+	position: fixed;
+	height: 80px;
+	width: 200px;
+	margin-top: 525px;
+	margin-left: 900px;
+	background-color: rgba(0,0,0,1);
+	border: 1px solid white;
+} 
+
+#cont {
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 400;
+	text-align: center;
+	color: white;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-transform: uppercase;
+}
+
+#contshadow {
+	display: inline-block;
+	position: fixed;
+	height: 80px;
+	width: 200px;
+	margin-top: 535px;
+	margin-left: 910px;
+	background-color: rgba(0,0,0,1);
+	border: 1px solid white;
+}

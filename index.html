@@ -47,12 +47,6 @@ $(document).ready(function(){
 			$(".contact").toggleClass("strike");
 		});
 	});
-$(document).ready(function(){
-		$("#boyinblue").click(function(){
-			$(".bibmodal").toggle();
-		});
-	});
-
 //PROJECTS//
 $(document).ready(function(){
 	$(".fineart").click(function(){
@@ -69,9 +63,16 @@ $(document).ready(function(){
 	});
 });
 $(document).ready(function(){
-	$(".photoandfilm").click(function(){
-		$(".photoandfilm").toggleClass("strike");
-		$(".pafp").toggle();
+	$(".photo").click(function(){
+		$(".photo").toggleClass("strike");
+		$(".php").toggle();
+		//$("#cmpf").toggle();//
+	});
+});
+$(document).ready(function(){
+	$(".video").click(function(){
+		$(".video").toggleClass("strike");
+		$(".vdp").toggle();
 		//$("#cmpf").toggle();//
 	});
 });
@@ -89,8 +90,14 @@ $(document).ready(function(){
 	});
 });
 $(document).ready(function(){
-	$("#pafp").click(function(){
-		$(".pafp").toggle();
+	$("#php").click(function(){
+		$(".php").toggle();
+		//$("#cmpf").toggle();//
+	});
+});
+$(document).ready(function(){
+	$("#vdp").click(function(){
+		$(".vdp").toggle();
 		//$("#cmpf").toggle();//
 	});
 });
@@ -106,22 +113,27 @@ $(document).ready(function(){
 		//$("#cmcontact").toggle();//
 	});
 });
-//OVERLAYS//
+//Z INDEX SHIT//
 $(document).ready(function(){
-	$("#boyinblue").mouseover(function(){
-		$(".biboverlay").css("opacity", "1");
+	$(".drag").mouseover(function(){
+		$(this).css("z-index", "9000");
 	});
-	$("#boyinblue").mouseout(function(){
-		$(".biboverlay").css("opacity", "0");
+	$(".drag").mouseout(function(){
+		$(this).css("z-index", "4");
 	});
 });
 </script>
 
 <style>
 /*BASIC STYLE*/
-body { 
-	background-color: white;
+body{
+	background-color: black;
 }
+
+#wrapper {
+  width: 1000px; } 
+
+a{color:white;}
 
 a.ocdover:link{color:#fff;}
 a.ocdover:visited{color:#fff;}
@@ -139,9 +151,13 @@ img {
 }
 
 p{
-	font-family: 'Permanent Marker', cursive;
+	/*font-family: 'Permanent Marker', cursive;*/
+	font-family: courier;
 	text-decoration-line: none; 
+	cursor: pointer;
+	color:white;
 }
+
 div#ocdover a:link {color: white;}
 div#ocdover a:visited{color:white;}
 
@@ -160,7 +176,7 @@ div#ocdover a:visited{color:white;}
  	margin-top: 0%;
  	margin-left: 0%;
  	z-index: 0;
- 	background-color: white;
+ 	background-color: black;
  }
 
 /*LIST*/
@@ -179,8 +195,26 @@ div#ocdover a:visited{color:white;}
 	z-index: 2;
 	font-weight: bold;
 	font-size: 15px;
-	font-color: black;
+	font-color: white;
 	width: 75px;
+}
+.photo{
+	position: fixed;
+	display: inline-block;
+	margin-left: 8.5%;
+	z-index: 2;
+	font-weight: bold;
+	font-size: 15px;
+	font-color: white;
+}
+.video{
+	position: fixed;
+	display: inline-block;
+	margin-left: 15%;
+	z-index: 2;
+	font-weight: bold;
+	font-size: 15px;
+	font-color: white;
 }
 .graphicdesign{
 	position: fixed;
@@ -188,17 +222,8 @@ div#ocdover a:visited{color:white;}
 	z-index: 2;
 	font-weight: bold;
 	font-size: 15px;
-	font-color: black;
-	margin-left: 8.5%; 
-}
-.photoandfilm{
-	position: fixed;
-	display: inline-block;
-	margin-left: 22%;
-	z-index: 2;
-	font-weight: bold;
-	font-size: 15px;
-	font-color: black;
+	font-color: white;
+	margin-left: 22%; 
 }
 .about{
 	position: fixed;
@@ -208,7 +233,7 @@ div#ocdover a:visited{color:white;}
 	z-index: 2;
 	font-weight: bold;
 	font-size: 15px;
-	font-color: black;
+	font-color: white;
 }
 .contact{
 	position: fixed;
@@ -218,7 +243,7 @@ div#ocdover a:visited{color:white;}
 	z-index: 2;
 	font-weight: bold;
 	font-size: 15px;
-	font-color: black;
+	font-color: white;
 }
 
 .strike {
@@ -243,41 +268,32 @@ div#ocdover a:visited{color:white;}
 	z-index: 6;
 	position: absolute;
 }
-#birdman{
-	margin-top: 34%;
-	margin-left: 40%;
-	opacity: 1;
-	z-index: 6;
-	position: absolute;
-	padding: 0px;
-}
-#birdman:hover{
-	opacity: 1;
-	position: absolute;
-}
 #boyinblue{
 	background-color: transparent;
 	display: inline-block;
 	position: absolute;
 	margin-top: 0%;
 	margin-left: 10%;
-	padding: 0px;
+	padding: 2px;
 	z-index: 4;
 }
 
-.biboverlay{
-	display: inline-block;
-	position: fixed;
-	width: 252px;
-	height: 50px;
-	margin-top: 20%;
-	margin-left: 9.5%;
-	font-family: arial; 
-	font-weight: bold;
-	font-size: 15px;
-	text-align: center;
-	z-index: 8;
-	opacity: 0;
+#boyinblue:hover{
+	background: linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-position: left top, right bottom, left bottom, right   top;
+    padding: 2px;
+    animation: border-dance 2s infinite linear;
+  }
+  @keyframes border-dance {
+    0% {
+      background-position: left top, right bottom, left bottom, right   top;
+    }
+    100% {
+      background-position: left 15px top, right 15px bottom , left bottom 15px , right   top 15px;
+    }
+  }
 }
 
 .ocd{
@@ -313,22 +329,6 @@ div#ocdover a:visited{color:white;}
 	z-index: 4;
 	opacity: 1;
 }
-.weather{
-	display: inline-block;
-	position: absolute;
-	background-color: lavender;
-	width: 200px;
-	height: 200px;
-	margin-top: 5%;
-	margin-left: 45%;
-	border: 2px solid black;
-	font-family: arial; 
-	font-weight: bold;
-	font-size: 15px;
-	text-align: center;
-	z-index: 8;
-	opacity: 1;
-}
 #ki35{
 	display: inline-block;
 	position: absolute;
@@ -337,6 +337,83 @@ div#ocdover a:visited{color:white;}
 	z-index: 4;
 	opacity: 1;	
 }
+#ki35:hover{
+	background: linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-position: left top, right bottom, left bottom, right   top;
+    padding: 2px;
+    animation: border-dance 2s infinite linear;
+  }
+#ent{
+	background: transparent;
+	position: absolute;
+	display: inline-block;
+	margin-top: 20%;
+	margin-left: 0%;
+	z-index: 2;
+	padding: 2px;
+}
+#ent:hover{
+	background: linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-position: left top, right bottom, left bottom, right   top;
+    padding: 2px;
+    animation: border-dance 2s infinite linear;
+  }
+#mar{
+	display: inline-block;
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 70%;
+	z-index: 5;
+	opacity: 1;
+	padding: 2px;
+}
+#mar:hover{
+	background: linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-position: left top, right bottom, left bottom, right   top;
+    padding: 2px;
+    animation: border-dance 2s infinite linear;
+}
+#dealing{
+	display: inline-block;
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 30%;
+	z-index: 5;
+	opacity: 1;
+	padding: 2px;
+}
+#dealing:hover{
+	background: linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-position: left top, right bottom, left bottom, right   top;
+    padding: 2px;
+    animation: border-dance 2s infinite linear;
+}
+#japan{
+	display: inline-block;
+	position: absolute;
+	margin-top: -1%;
+	margin-left: 42%;
+	z-index: 2;
+	opacity: 1;
+	padding: 2px;
+}
+#japan:hover{
+	background: linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-position: left top, right bottom, left bottom, right   top;
+    padding: 2px;
+    animation: border-dance 2s infinite linear;
+}
+
 /*MODALS*/
 .ABOUTMODAL{
 	position: fixed;
@@ -345,15 +422,17 @@ div#ocdover a:visited{color:white;}
 	margin-left: 10%;
 	width: 600px;
 	height: 400px;
-	background-color: white;
-	border: 3px solid black;
+	background-color: black;
+	border: 3px solid white;
 	z-index: 10;
 }
 .DESC{
-	margin: 10%;
+	margin: 6%;
 	font-family: courier;
 	font-weight: bold;
-	font-size: 20px;
+	color:white;
+	font-size: 14px;
+	line-height: 20px;
 	z-index: 10;
 }
 
@@ -363,13 +442,14 @@ div#ocdover a:visited{color:white;}
 	margin-top: 25%;
 	margin-left: 60%;
 	width: 460px;
-	height: 200px;
-	background-color: white;
-	border: 3px solid black;
+	height: 100px;
+	background-color: black;
+	border: 3px solid white;
 	z-index: 7;
 }
 .INFO{
-	margin: 10%;
+	margin-top: 2%;
+	margin-left: 10%;
 	font-family: courier;
 	font-weight: bold;
 	font-size: 20px;
@@ -505,17 +585,19 @@ div#ocdover a:visited{color:white;}
 </style>
 </head>
 <body>
-	<!--CHECKBOXES/CATEGORIES-->
+<div id="wrapper">
+<!--CHECKBOXES/CATEGORIES-->
 <div class="list">
 	<!--<div id="cbfa"></div>
 	<div id="cmfa"></div>-->
 	<p class="fineart">FINE ART</p>
 	<!--<div id="cbgd"></div>
 	<div id="cmgd"></div>-->
-	<p class="graphicdesign">GRAPHIC DESIGN</p>
+	<p class="photo">PHOTO</p>
 	<!--<div id="cbpf"></div>
 	<div id="cmpf"></div>-->
-	<p class="photoandfilm">FILM AND PHOTO</p>
+	<p class="video">VIDEO</p>
+	<p class="graphicdesign">GRAPHIC DESIGN</p>
 	<!--<div id="cbabout"></div>
 	<div id="cmabout"></div>-->
 	<p class="about">ABOUT</p>
@@ -525,28 +607,19 @@ div#ocdover a:visited{color:white;}
 </div>
 <div class="cont">
 <!--PROJECTS--> 
-	<div class="drag"><a href="jovel/index.html" target="_blank"><img id="jovel" class="gdp" src="jovel.gif" width="250px"></a></div>
+	<!--Boy in Blue-->
 	<div class="drag">
 		<div class="fap">
-			<a href="boyinblue.html" target="_blank"><img id="boyinblue" src="boyinblue.png" width="250px"></a>
+			<a href="boyinblue.html"><img id="boyinblue" src="boyinblue.png" width="200px"></a>
 		</div>
 	</div>
+	<!--Korea in 35mm-->
 	<div class="drag">
-		<div class="pafp">
-			<div class="ki35"><img id="ki35" src="ki35.png" width="250px"></div>
+		<div class="php">
+			<a href="korea.html" target="_blank"><img id="ki35" src="ki35.png" width="200px"></a>
 		</div>
 	</div>
-
-	<!--<div class="fap">
-		<img id="birdman" class="drag" src="birdman.png" width="250px">
-	</div>-->
-	<!--<div class="cdp">
-		<img id="bsp1" class="drag" src="ki35.png" width="250px">
-	</div>-->
-	<!--<div class="fap">
-		<img id="bsp2" class="drag" src="projects/bsp2.png" width="200px">
-	</div>-->
-	
+	<!--Obsession/Compulsion-->
 	<div class="drag">
 		<div class="gdp">
 		<a class="ocdover" href="ocd/index.html" target="_blank">
@@ -555,19 +628,43 @@ div#ocdover a:visited{color:white;}
 		</a class="ocdover">
 		</div>
 	</div>
-	
-	<!--<div id="gdp" class="drag">
-		<a href="weather/index.html" target="_blank"><div class="weather">Weather Visualizer</div></a>
-	</div>-->
+	<!--Journal Entries-->
+	<div class="drag">
+		<div class="php">
+			<a href="entries.html" targe="_blank"><img id="ent" src="thumbnail1.png" width="200px"></a>
+		</div>
+	</div>
+	<!--Marlon on VHS-->
+	<div class="drag">
+		<div class="vdp">
+			<a href="marlon.html" targe="_blank"><img id="mar" src="https://media.giphy.com/media/7SKKUqaYeDmaQj1TRT/200w_d.gif" width="260"></a>
+		</div>
+	</div>
+	<!--Dealing-->
+	<div class="drag">
+		<div class="vdp">
+		<div class="gdp">
+			<a href="dwd.html" targe="_blank"><img id="dealing" src="https://media.giphy.com/media/NUupi5X4btWD3BFimi/200w_d.gif" width="260"></a>
+		</div>
+		</div>
+	</div>
+	<!--Ji35-->
+	<div class="drag">
+		<div class="php">
+			<a href="japan.html" targe="_blank"><img id="japan" src="thumb4.png" width="260"></a>
+		</div>
+	</div>
 <!--ABOUT MODAL-->
  <div class="aboutmodal">
- 	<div class="desc"><a class=desclink href="https://www.instagram.com/baileystorms" target="_blank">BAILEY STORMS</a> is a brooklyn based artist and designer. After graudating from <a class=desclink href="https://www.newschool.edu/parsons/" target="_blank">PARSONS</a> in 2020, she hopes to work on creative projects accross the globe. </div></div>
-</div>
-<!--CONTACT MODAL-->
-<div class="CONTACTMODAL">
-	<div class="INFO">call me beep me:<br><br>email: baileyestorms@gmail.com<br>instagram: @baileystorms</div>
+ 	<div class="desc">I am a Brooklyn-based artist and designer originally from Durham, North Carolina. My work ranges from fine art, photography and video, to writing, motion graphics and graphic design and is based on the simple belief that meaningful visuals can make meaningful impact. Upcoming projects include “Subway Portraits,” a collection of drawings and paintings detailing strangers on the subway, “T/HERE,” a conversation between my father and I via pages from his sketchbook in conjunction with letters I have written to him since his death, “American Waters,” a film about my mother sailing and recentering herself after tremendous loss, and “Anonymous,” a collection of portraits addressing addiction. After recieving my BFA from Parsons in 2020, I hope to continue working on my own creative projects as well as collaborate with media companies accross the globe. </div>
 </div>
 
+<!--CONTACT MODAL-->
+<div class="CONTACTMODAL">
+	<div class="INFO"><p>email: baileyestorms@gmail.com<br>instagram: @baileystorms</p></div>
+</div>
+
+</div>
 </div>
 </body>
 </html>

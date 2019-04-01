@@ -1,0 +1,268 @@
+<html>
+<head>
+<title>BAILEY STORMS</title>
+<!--style-->
+<link rel="stylesheet" href="theme.css">
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+<!--scripts-->
+	<!--jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!--pollyfill-->
+<script src="https://raw.github.com/TimPietrusky/background-clip-text-polyfill/master/background-clip-text-polyfill.js" </script>
+	<!--drag-->
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<!--mine-->
+<script>
+  $( function() {
+    $( ".drag" ).draggable();
+  } );
+  </script>
+<script>
+//ABOUT MODAL//
+$(document).ready(function(){
+		$(".aboutmodal").hide(function(){
+		});
+	});
+$(document).ready(function(){
+		$(".about").click(function(){
+			$(".ABOUTMODAL").toggle();
+		});
+	});
+//PROJECTS//
+$(document).ready(function(){
+	$(".fineart").click(function(){
+		$(".fap").toggle();
+	});
+});
+$(document).ready(function(){
+	$(".graphicdesign").click(function(){
+		$(".gdp").toggle();
+	});
+});
+$(document).ready(function(){
+	$(".creativedirection").click(function(){
+		$(".cdp").toggle();
+	});
+});
+</script>
+
+<style>
+/*BASIC STYLE*/
+body { 
+	background-color: white;
+	cursor: url("bee.png"), auto;
+	overflow: hidden;
+}
+
+a { 
+	cursor: url("bee.png"), auto; 
+	text-decoration: none; 
+}
+
+img { 
+	display: inline-block;
+	position: fixed;
+}
+
+p{
+	font-family: 'Permanent Marker', cursive;
+	text-decoration-line: none; 
+}
+
+/*DRAG AND DESIGN STYLE*/
+.drag { 
+  	padding: 0.5em; 
+  	cursor: url("bee.png"), auto;
+ } 
+
+.about{
+	margin-top: 0%;
+	margin-left: 80%;
+	z-index: 2;
+	font-weight: bold;
+	font-size: 15px;
+	font-color: black;
+}
+.contact{
+	margin-top: 10%;
+	margin-left:80%;
+	z-index: 2;
+	font-weight: bold;
+	font-size: 15px;
+	font-color: black;
+}
+.fineart{
+	margin-top: 10%;
+	margin-left: 80%;
+	z-index: 2;
+	font-weight: bold;
+	font-size: 15px;
+	font-color: black;
+}
+.graphicdesign{
+	margin-top: 0%;
+	margin-left: 80%;
+	z-index: 2;
+	font-weight: bold;
+	font-size: 15px;
+	font-color: black;
+}
+.creativedirection{
+	margin-top: 0%;
+	margin-left: 80%;
+	z-index: 2;
+	font-weight: bold;
+	font-size: 15px;
+	font-color: black;
+}
+.allprojects{
+	margin-top: 0%;
+	margin-left: 80%;
+	z-index: 2;
+	font-weight: bold;
+	font-size: 15px;
+	font-color: black;
+}
+
+#jovel{
+	margin-top: 10%;
+	margin-left: 10%;
+	z-index: 6;
+}
+#bsp1{
+	margin-top: 10%;
+	margin-left: 10%;
+	z-index: 6;
+}
+#bsp2{
+	margin-top: 10%;
+	margin-left: 10%;
+	z-index: 4;
+}
+
+.ABOUTMODAL{
+	position: absolute;
+	opacity: 1;
+	margin-top: 7%;
+	margin-left: 15%;
+	width: 700px;
+	height: 500px;
+	background-color: white;
+	border: 1px solid black;
+	z-index: 7;
+}
+.DESC{
+	margin: 10%;
+	font-family: courier;
+	font-weight: bold;
+	font-size: 20px;
+	z-index: 10;
+}
+/*CHECKBOXES*/
+/*container*/
+.container {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/*hide default checkbox*/
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/*custom checkbox*/
+.checkmark {
+  position: absolute;
+  border: solid black; 
+  border-width: 2px;
+  top: 0;
+  left: 78%;
+  height: 15px;
+  width: 15px;
+  background-color: rgba(255,255,255,0);
+}
+.container:hover input ~ .checkmark {
+  background-color: rgba(255,255,255,0);
+  opacity: 0.5;
+}
+/* when checked*/
+.container input:checked ~ .checkmark {
+  background-color: rgba(255,255,255,0);
+  opacity: 1;
+}
+/*strikethrough/check(not checked)*/
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  opacity: 0.5;
+}
+/*strikethrough/check (checked)*/
+.container input:checked ~ .checkmark:after {
+  display: block;
+  opacity: 1;
+}
+/*strikethough/check style*/
+.container .checkmark:after {
+  left: 10px;
+  top: -10px;
+  width: 7px;
+  height: 21px;
+  border: solid black;
+  border-width: 0 4px 4px 0;
+  -webkit-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  transform: rotate(50deg);
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+<div class="foreground"></div>
+<div class="content">
+	<!--CHECKBOXES/CATEGORIES-->
+	<label class="container"><p class="fineart">FINE ART</p>
+	 	 <input type="checkbox" checked="checked">
+ 		 <span class="checkmark"></span>
+ 	</label>
+	<label class="container"><p class="graphicdesign">GRAPHIC DESIGN</p>
+		<input type="checkbox" checked="checked">
+  		<span class="checkmark"></span>
+  	</label>
+	<label class="container"><p class="creativedirection">CREATIVE DIRECTION</p>
+		<input type="checkbox" checked="checked">
+		<span class="checkmark"></span>
+	</label>
+	<label class="container"><p class="about">ABOUT</p>
+		<input type="checkbox">
+		<span class="checkmark"></span>
+	</label>
+	<label class="container"><p class="allprojects">CONTACT</p>
+		<input type="checkbox">
+		<span class="checkmark"></span>
+	</label>
+</div>
+
+<!--ABOUT MODAL-->
+ <div class="aboutmodal"><div class="desc"><a href="https://www.instagram.com/baileystorms"> BAILEY STORMS </a> is a brooklyn based artist and designer. After graudating from PARSONS in 2020, she hopes to work on creative projects accross the globe. </div></div>
+</div>
+<!--CONTACT MODAL-->
+<!--PROJECTS--> 
+	<div class="gdp"><a href="https://www.itsjovel.com" target="_blank"><img id="jovel" class="drag" src="jovel.gif" width="250px"></a></div>
+	<div class="fap"><img id="bsp1" class="drag" src="projects/bsp1.png" width="200px"></div>
+	<div class="cdp"><img id="bsp2" class="drag" src="projects/bsp2.png" width="200px"></div>
+
+<div class="body"></div>
+</body>
+</html>

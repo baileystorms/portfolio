@@ -1,0 +1,1656 @@
+body { 
+	background-color: black; 
+	overflow: hidden;
+	height: 110%;
+	width: 110%;
+}
+
+/*OTHER SHIT*/
+	ul { 
+		list-style-type: none;
+		height: 500px;
+		width: 500px;
+	}
+
+	li { 
+		font-size: 11px;
+		font-family: arial;
+		color: transparent;
+		line-height: 11px;
+	}
+
+/*show*/
+	li.show1{
+		color: white;
+		border: 1px solid rgba(151, 91, 191, 0.5);
+	}
+	li.show2{
+		color: white;
+		border: 1px solid rgba(69, 140, 216,0.5);	
+	}
+	li.show3{
+		color: white;
+		border: 1px solid rgba(244, 170, 66,0.5);
+	}
+	li.show4{
+		color: white;
+		border: 1px solid rgba(97, 204, 83, 0.5);
+	}
+	li.show5{
+		color: white;
+		border: 1px solid rgba(219, 210, 92, 0.5);
+	}
+	li.show6{
+		color: white;
+		border: 1px solid rgba(224, 109, 153,0.5);
+	}
+
+
+	/*pinks*/
+			li.pink{
+				color: white;
+			}
+			li.pink1{
+				color: white;
+			}
+			li.pink2{
+				color: white;
+			}
+			li.pink3{
+				color: white;
+			}
+			li.pink4{
+				color: white;
+			}
+			li.pink5{
+				color: white;
+			}
+			li.pink6{
+				color: white;
+			}
+			li.pink7{
+				color: white;
+			}
+			li.pink8{
+				color: white;
+			}
+			li.pink9{
+				color: white;
+			}
+			li.pink10{
+				color: white;
+			}
+			li.pink11{
+				color: white;
+			}
+			li.pink12{
+				color: white;
+			}
+			li.pink13{
+				color: white;
+			}
+			li.pink14{
+				color: white;
+			}
+			li.pink15{
+				color: white;
+			}
+			li.pink16{
+				color: white;
+			}
+			li.pink17{
+				color: white;
+			}
+			li.pink18{
+				color: white;
+			}
+			li.pink19{
+				color: white;
+			}
+			li.pink20{
+				color: white;
+			}
+			li.pink21{
+				color: white;
+			}
+			li.pink22{
+				color: white;
+			}
+			li.pink23{
+				color: white;
+			}
+			li.pink24{
+				color: white;
+			}
+			li.pink25{
+				color: white;
+			}
+			li.pink26{
+				color: white;
+			}
+			li.pink27{
+				color: white;
+			}
+			li.pink28{
+				color: white;
+			}
+			li.pink29{
+				color: white;
+			}
+			li.pink30{
+				color: white;
+			}
+			li.pink31{
+				color: white;
+			}
+			li.pink32{
+				color: white;
+			}
+			li.pink34{
+				color: white;
+			}
+			li.pink35{
+				color: white;
+			}
+			li.pink36{
+				color: white;
+			}
+			li.pink37{
+				color: white;
+			}
+			li.pink38{
+				color: white;
+			}
+			li.pink39{
+				color: white;
+			}
+			li.pink40{
+				color: white;
+			}
+			li.pink41{
+				color: white;
+			}
+			li.pink42{
+				color: white;
+			}
+			li.pink43{
+				color: white;
+			}
+			li.pink44{
+				color: white;
+			}
+			li.pink45{
+				color: white;
+			}
+			li.pink46{
+				color: white;
+			}
+			li.pink47{
+				color: white;
+			}
+			li.pink48{
+				color: white;
+			}
+			li.pink49{
+				color: white;
+			}
+			li.pink50{
+				color: white;
+			}
+			li.pink51{
+				color: white;
+			}
+			li.pink52{
+				color: white;
+			}
+			li.pink53{
+				color: white;
+			}
+			li.pink54{
+				color: white;
+			}
+			li.pink55{
+				color: white;
+			}
+			li.pink56{
+				color: white;
+			}
+			li.pink57{
+				color: white;
+			}
+
+
+	/*greys*/
+			li.grey {
+				color: grey;
+				border: 1px solid black;
+			}
+
+	/*back*/
+			.back {
+				display: inline-block;
+				position: fixed;
+				margin-top: 575px;
+				margin-left: 20px;
+				height: 55px;
+				width: 55px;
+				background-color: black;
+				border: 1px solid rgba(255,255,255,0.5);
+				border-radius: 50%;
+				color: rgba(255,255,255,0.5);
+			}
+			#back {
+				display: inline-block;
+				position: fixed;
+				margin-top: 5px;
+				margin-left: 12px;
+				padding-top: 0px;
+				padding-left: 0px;
+				font-family: arial;
+				font-weight: bold;
+				font-size: 42px;
+			}
+			.back:hover{
+				color: rgba(255,255,255,1);
+				border: 1px solid rgba(255,255,255,1);
+
+			}
+
+/*TITLES*/
+	.obs {
+		display: inline-block;
+		position: fixed;
+		margin-top: 20px;
+		margin-left: 20px;
+		height: 90px;
+		width: 180px;
+		background-color: black;
+		border: 1px solid white;
+		color: white;
+	}
+
+	#obs {
+		display: inline-block;
+		position: fixed;
+		padding-top: 17px;
+		padding-left: 46px;
+		font-family: arial;
+		font-weight: bold;
+	}
+
+	.com {
+		display: inline-block;
+		position: fixed;
+		margin-top: 545px;
+		margin-left: 985px;
+		height: 90px;
+		width: 180px;
+		background-color: black;
+		border: 1px solid white;
+		color: white;
+	}
+	#com{ 
+		display: inline-block;
+		position: fixed;
+		padding-top: 17px;
+		padding-left: 46px;
+		font-family: arial;
+		font-weight: bold;
+	 }
+
+/*LISTS*/
+	.obsessions { 
+		display: inline-block;
+		position: fixed;
+		height: 500px;
+		width: 500px;
+		margin-top: 200px;
+		margin-left: 300px;
+		height: 500px;
+		width: 200px;
+		color: transparent;
+	}
+
+	.compulsions {
+		display: inline-block;
+		position: fixed;
+		margin-top: -20px;
+		margin-left: 875px;
+		height: 500px;
+		width: 200px;
+		color: white;
+	}
+
+/*OBSESSIONS*/
+
+	/*germs&contamination*/
+		.gac {
+			display: inline-block;
+			position: fixed;
+			margin-top: 15px;
+			margin-left: 225px;
+			height: 90px;
+			width: 90px;
+			border-radius: 50%;
+			background-color: black;
+			border: 1px solid rgba(151, 91, 191, 0.5);
+			color: white;
+		} 
+		.gac:hover{
+			background-color: rgba(151, 91, 191, 0.5);
+		}
+		#gac {
+			display: inline-block;
+			position: fixed;
+			padding-top: 12px;
+			padding-left: 6px;
+			font-size: 14px;
+			font-family: Frutiger, "Frutiger Linotype", Univers, Arial;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-align: center;
+			letter-spacing: 0px;
+		}
+			/*feces*/
+				#feces {
+					margin-top: -185px;
+					height: 25px;
+					width: 80px;
+					padding-top: 5px;
+					padding-left: 50px;
+					background-color: transparent;
+					
+				}
+				#feces:hover{
+					background-color: rgba(151, 91, 191, 0.3);
+				}
+				#feces.show{
+					background-color: rgba(151, 91, 191, 0.5);
+				}
+			/*urine*/
+				#urine {
+					margin-top: 4px;
+					height: 25px;
+					width: 80px;
+					padding-top: 5px;
+					padding-left: 50px;
+					background-color: transparent;
+				}
+				#urine:hover{
+					background-color: rgba(151, 91, 191, 0.3);
+				}
+				#urine.show{
+					background-color: rgba(151, 91, 191, 0.5);
+				}
+			/*saliva*/
+				#saliva {
+					margin-top: 4px;
+					height: 25px;
+					width: 80px;
+					padding-top: 5px;
+					padding-left: 50px;
+					background-color: black;
+				}
+				#saliva:hover{
+					background-color: rgba(151, 91, 191, 0.3);
+				}
+				#saliva.show{
+					background-color: rgba(151, 91, 191, 0.5);
+				}
+			/*pus*/
+				#pus {
+					margin-top: -104px;
+					margin-left: 140px;
+					height: 25px;
+					width: 80px;
+					padding-top: 5px;
+					padding-left: 50px;
+					background-color: transparent;
+				}
+				#pus:hover{
+					background-color: rgba(151, 91, 191, 0.3);
+				}
+				#pus.show{
+					background-color: rgba(151, 91, 191, 0.5);
+				}
+			/*sweat*/
+				#sweat {
+					margin-top: 4px;
+					margin-left: 140px;
+					height: 25px;
+					width: 80px;
+					padding-top: 5px;
+					padding-left: 50px;
+					background-color: transparent;
+				}
+				#sweat:hover{
+					background-color: rgba(151, 91, 191, 0.3);
+				}
+				#sweat.show{
+					background-color: rgba(151, 91, 191, 0.5);
+				}
+			/*blood*/
+				#blood {
+					margin-top: 4px;
+					margin-left: 140px;
+					height: 25px;
+					width: 80px;
+					padding-top: 5px;
+					padding-left: 50px;
+					background-color: transparent;
+				}
+				#blood:hover{
+					background-color: rgba(151, 91, 191, 0.3);
+				}
+				#blood.show{
+					background-color: rgba(151, 91, 191, 0.5);
+				}
+			/*smell of meat*/
+				#smellofmeat {
+					margin-top: -104px;
+					margin-left: 280px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#smellofmeat:hover{
+					background-color: rgba(151, 91, 191, 0.3);
+				}
+				#smellofmeat.show{
+					background-color: rgba(151, 91, 191, 0.5);
+				}
+			/*taste of meat*/
+				#tasteofmeat {
+					margin-top: 4px;
+					margin-left: 280px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#tasteofmeat:hover{
+					background-color: rgba(151, 91, 191, 0.3);
+				}
+				#tasteofmeat.show{
+					background-color: rgba(151, 91, 191, 0.5);
+				}
+			/*rotting wood*/
+				#rottingwood {
+					margin-top: 4px;
+					margin-left: 280px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#rottingwood:hover{
+					background-color: rgba(151, 91, 191, 0.3);
+				}
+				#rottingwood.show{
+					background-color: rgba(151, 91, 191, 0.5);
+				}
+			/*smell of rot*/
+				#smellofrot {
+					margin-top: -104px;
+					margin-left: 420px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#smellofrot:hover{
+					background-color: rgba(151, 91, 191, 0.3);
+				}
+				#smellofrot.show{
+					background-color: rgba(151, 91, 191, 0.5);
+				}
+			/*rotting food*/
+				#rottingfood {
+					margin-top: 4px;
+					margin-left: 420px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#rottingfood:hover{
+					background-color: rgba(151, 91, 191, 0.3);
+				}
+				#rottingfood.show{
+					background-color: rgba(151, 91, 191, 0.5);
+				}
+			/*foods with dairy*/
+				#foodswithdairy {
+					margin-top: 4px;
+					margin-left: 420px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#foodswithdairy:hover{
+					background-color: rgba(151, 91, 191, 0.3);
+				}
+				#foodswithdairy.show{
+					background-color: rgba(151, 91, 191, 0.5);
+				}
+
+	/*illness&death*/
+		.iad {
+			display: inline-block;
+			position: fixed;
+			margin-top: 115px;
+			margin-left: 225px;
+			height: 90px;
+			width: 90px;
+			border-radius: 50%;
+			background-color: black;
+			border: 1px solid rgba(69, 140, 216,0.5);
+			color: white;
+		}
+		.iad:hover{
+			background-color: rgba(69, 140, 216, 0.5);
+		}
+		#iad {
+			padding-top: 20px;
+			font-size: 14px;
+			font-family: Frutiger, "Frutiger Linotype", Univers, Arial;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-align: center;
+		}
+			/*gettingcancer*/
+				#gettingcancer {
+					margin-top: 4px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#gettingcancer:hover{
+					background-color: rgba(69, 140, 216,0.5);
+				}
+				#gettingcancer.show{
+					background-color: rgba(69, 140, 216,0.5);
+				}
+			/*givingcancer*/
+				#givingcancer {
+					margin-top: 4px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#givingcancer:hover{
+					background-color: rgba(69, 140, 216,0.5);
+				}
+				#givingcancer.show{
+					background-color: rgba(69, 140, 216,0.5);
+				}
+			/*gettinglosis*/
+				#gettinglosis {
+					margin-top: -67px;
+					margin-left: 140px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#gettinglosis:hover{
+					background-color: rgba(69, 140, 216,0.5);
+				}
+				#gettinglosis.show{
+					background-color: rgba(69, 140, 216,0.5);
+				}
+			/*givinglosis*/
+				#givinglosis {
+					margin-top: 4px;
+					margin-left: 140px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#givinglosis:hover{
+					background-color: rgba(69, 140, 216,0.5);
+				}
+				#givinglosis.show{
+					background-color: rgba(69, 140, 216,0.5);
+				}
+			/*contlovedone*/
+				#contlovedone {
+					margin-top: -67px;
+					margin-left: 280px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#contlovedone:hover{
+					background-color: rgba(69, 140, 216,0.5);
+				}
+				#contlovedone.show{
+					background-color: rgba(69, 140, 216,0.5);
+				}
+			/*people i'm uncomfortable with touching me*/
+				#touchingme{
+					margin-top: 4px;
+					margin-left: 280px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#touchingme:hover{
+					background-color: rgba(69, 140, 216,0.5);
+				}
+				#touchingme.show{
+					background-color: rgba(69, 140, 216,0.5);
+				}
+			/*death of loved one*/
+				#deathoflovedone {
+					margin-top: -67px;
+					margin-left: 420px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#deathoflovedone:hover{
+					background-color: rgba(69, 140, 216,0.5);
+				}
+				#deathoflovedone.show{
+					background-color: rgba(69, 140, 216,0.5);
+				}
+			/*dying*/
+				#dying {
+					margin-top: 4px;
+					margin-left: 420px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#dying:hover{
+					background-color: rgba(69, 140, 216,0.5);
+				}
+				#dying.show{
+					background-color: rgba(69, 140, 216,0.5);
+				}
+
+	/*personality&body*/
+		.pab {
+			display: inline-block;
+			position: fixed;
+			margin-top: 215px;
+			margin-left: 225px;
+			height: 90px;
+			width: 90px;
+			border-radius: 50%;
+			background-color: black;
+			border: 1px solid rgba(97, 204, 83, 0.5);
+			color: white;
+		}
+		.pab:hover{
+			background-color: rgba(97, 204, 83, 0.7);	
+		}
+		#pab {
+			padding-top: 12px;
+			font-size: 14px;
+			font-family: Frutiger, "Frutiger Linotype", Univers, Arial;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+		/*losing my personality*/
+				#losepersonality {
+					margin-top: 4px;
+					margin-left: 0px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#losepersonality:hover{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+				#losepersonality.show{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+			/*losing my memory*/
+				#losememory {
+					margin-top: 4px;
+					margin-left: 0px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#losememory:hover{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+				#losememory.show{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+			/*switching bodies with people*/
+				#switchbodies{
+					margin-top: 4px;
+					margin-left: 0px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#switchbodies:hover{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+				#switchbodies.show{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+			/*losing my hair*/
+				#losehair {
+					margin-top: 4px;
+					margin-left: 0px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#losehair:hover{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+				#losehair.show{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+			/*my body changing too much*/
+				#changingbody {
+					margin-top: -140px;
+					margin-left: 140px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#changingbody:hover{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+				#changingbody.show{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+			/*my hair color changing*/
+				#changinghaircolor {
+					margin-top: 4px;
+					margin-left: 140px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#changinghaircolor:hover{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+				#changinghaircolor.show{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+			/*losing a limb*/
+				#loselimb {
+					margin-top: 4px;
+					margin-left: 140px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#loselimb:hover{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+				#loselimb.show{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+			/*going blind*/
+				#blind {
+					margin-top: 4px;
+					margin-left: 140px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#blind:hover{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+				#blind.show{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+			/*going deaf*/
+				#deaf {
+					margin-top: -140px;
+					margin-left: 280px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#deaf:hover{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+				#deaf.show{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+			/*going color-blind*/
+				#color-blind {
+					margin-top: 4px;
+					margin-left: 280px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#color-blind:hover{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+				#color-blind.show{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+			/*becoming mute*/
+				#mute {
+					margin-top: 4px;
+					margin-left: 280px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#mute:hover{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+				#mute.show{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+			/*becoming anosmic*/
+				#anosmic {
+					margin-top: -104px;
+					margin-left: 420px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#anosmic:hover{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+				#anosmic.show{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+			/*permanent anesthesia*/
+				#permanesthesia {
+					margin-top: 4px;
+					margin-left: 420px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#permanesthesia:hover{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+				#permanesthesia.show{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+			/*paralyzation*/
+				#paralyzation {
+					margin-top: 4px;
+					margin-left: 420px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#paralyzation:hover{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+				#paralyzation.show{
+					background-color: rgba(97, 204, 83, 0.5);
+				}
+
+	/*distruction&violence*/
+		.dav {
+			display: inline-block;
+			position: fixed;
+			margin-top: 315px;
+			margin-left: 225px;
+			height: 90px;
+			width: 90px;
+			border-radius: 50%;
+			background-color: black;
+			border: 1px solid rgba(219, 210, 92, 0.5);
+			color: white;
+		}
+		.dav:hover{
+			background-color: rgba(219, 210, 92, 0.5);	
+		}
+		#dav{ 
+			padding-top: 10px;
+			font-size: 14px;
+			font-family: Frutiger, "Frutiger Linotype", Univers, Arial;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-align: center;
+		 }
+			/*tsunami*/
+				#tsunami {
+					margin-top: 4px;
+					margin-left: 280px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#tsunami:hover{
+					background-color: rgba(219, 210, 92, 0.5);
+				}
+				#tsunami.show{
+					background-color: rgba(219, 210, 92, 0.5);
+				}
+			/*floods*/
+				#floods {
+					margin-top: -32px;
+					margin-left: 420px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#floods:hover{
+					background-color: rgba(219, 210, 92, 0.5);
+				}
+				#floods.show{
+					background-color: rgba(219, 210, 92, 0.5);
+				}
+			/*bombs*/
+				#bombs {
+					margin-top: 4px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#bombs:hover{
+					background-color: rgba(219, 210, 92, 0.5);
+				}
+				#bombs.show{
+					background-color: rgba(219, 210, 92, 0.5);
+				}
+			/*war*/
+				#war {
+					margin-top: 4px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#war:hover{
+					background-color: rgba(219, 210, 92, 0.5);
+				}
+				#war.show{
+					background-color: rgba(219, 210, 92, 0.5);
+				}
+			/*buildings falling down*/
+				#buildingfall {
+					margin-top: -68px;
+					margin-left: 140px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#buildingfall:hover{
+					background-color: rgba(219, 210, 92, 0.5);
+				}
+				#buildingfall.show{
+					background-color: rgba(219, 210, 92, 0.5);
+				}
+			/*infrastructure failing*/
+				#infrastructurefail {
+					margin-top: 4px;
+					margin-left: 140px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#infrastructurefail:hover{
+					background-color: rgba(219, 210, 92, 0.5);
+				}
+				#infrastructurefail.show{
+					background-color: rgba(219, 210, 92, 0.5);
+				}
+			/*cars*/
+				#cars {
+					margin-top: -68px;
+					margin-left: 280px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#cars:hover{
+					background-color: rgba(219, 210, 92, 0.5);
+				}
+				#cars.show{
+					background-color: rgba(219, 210, 92, 0.5);
+				}
+			/*car accidents*/
+				#caraccidents {
+					margin-top: -32px;
+					margin-left: 420px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#caraccidents:hover{
+					background-color: rgba(219, 210, 92, 0.5);
+				}
+				#caraccidents.show{
+					background-color: rgba(219, 210, 92, 0.5);
+				}
+
+	/*relationships*/
+		.rel {
+			display: inline-block;
+			position: fixed;
+			margin-top: 415px;
+			margin-left: 225px;
+			height: 90px;
+			width: 90px;
+			border-radius: 50%;
+			background-color: black;
+			border: 1px solid rgba(244, 170, 66,0.5);
+			color: white;
+		}
+		.rel:hover{
+			background-color: rgba(244, 170, 66,0.5);	
+		}
+		#rel {
+			padding-top: 18px;
+			font-size: 14px;
+			font-family: Frutiger, "Frutiger Linotype", Univers, Arial;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-align: center;
+		}
+			/*that nobody cares about me*/
+				#nobodycares {
+					margin-top: 4px;
+					margin-left: 280px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#nobodycares:hover{
+					background-color: rgba(244, 170, 66,0.5);
+				}
+				#nobodycares.show{
+					background-color: rgba(244, 170, 66,0.5);
+				}
+			/*people plotting against me*/
+				#plottingagainstme {
+					margin-top: -32px;
+					margin-left: 420px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#plottingagainstme:hover{
+					background-color: rgba(244, 170, 66,0.5);
+				}
+				#plottingagainstme.show{
+					background-color: rgba(244, 170, 66,0.5);
+				}
+			/*my friends leaving me*/
+				#friendsleaveme {
+					margin-top: 4px;
+					margin-left: 0px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#friendsleaveme:hover{
+					background-color: rgba(244, 170, 66,0.5);
+				}
+				#friendsleaveme.show{
+					background-color: rgba(244, 170, 66,0.5);
+				}
+			/*people thinking i'm crazy*/
+				#thinkimcrazy {
+					margin-top: 4px;
+					margin-left: 0px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#thinkimcrazy:hover{
+					background-color: rgba(244, 170, 66,0.5);
+				}
+				#thinkimcrazy.show{
+					background-color: rgba(244, 170, 66,0.5);
+				}
+			/*emotional/romantic relationship*/
+				#emotionalrel {
+					margin-top: -68px;
+					margin-left: 140px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#emotionalrel:hover{
+					background-color: rgba(244, 170, 66,0.5);
+				}
+				#emotionalrel.show{
+					background-color: rgba(244, 170, 66,0.5);
+				}
+			/*betrayel in a relationship*/
+				#betrayel {
+					margin-top: 4px;
+					margin-left: 140px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#betrayel:hover{
+					background-color: rgba(244, 170, 66,0.5);
+				}
+				#betrayel.show{
+					background-color: rgba(244, 170, 66,0.5);
+				}
+			/*the people hate me*/
+				#hateme {
+					margin-top: -68px;
+					margin-left: 280px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#hateme:hover{
+					background-color: rgba(244, 170, 66,0.5);
+				}
+				#hateme.show{
+					background-color: rgba(244, 170, 66,0.5);
+				}
+			/*that people will forget about me*/
+				#forgetme {
+					margin-top: 4px;
+					margin-left: 280px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#forgetme:hover{
+					background-color: rgba(244, 170, 66,0.5);
+				}
+				#forgetme.show{
+					background-color: rgba(244, 170, 66,0.5);
+				}
+			/*getting hit by a loved one*/
+				#hit {
+					margin-top: -68px;
+					margin-left: 420px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: transparent;
+				}
+				#hit:hover{
+					background-color: rgba(244, 170, 66,0.5);
+				}
+				#hit.show{
+					background-color: rgba(244, 170, 66,0.5);
+				}
+
+
+	/*other*/
+		.oth {
+			display: inline-block;
+			position: fixed;
+			margin-top: 515px;
+			margin-left: 225px;
+			height: 90px;
+			width: 90px;
+			border-radius: 50%;
+			background-color: black; 
+			border: 1px solid rgba(224, 109, 153,0.5);
+			color: white;
+		}
+		.oth:hover{
+			background-color: rgba(224, 109, 153,0.5);
+		}
+		#oth {
+			padding-top: 22px;
+			font-size: 14px;
+			font-family: Frutiger, "Frutiger Linotype", Univers, Arial;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+			/*three*/
+				#three {
+					margin-top: 40px;
+					margin-left: 0px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: black;
+				}
+				#three:hover{
+					background-color: rgba(224, 109, 153,0.5);
+				}
+				#three.show{
+					background-color: rgba(224, 109, 153,0.5);
+				}
+
+			/*blue*/
+				#blue {
+					margin-top: 4px;
+					margin-left: 0px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: black;
+				}
+				#blue:hover{
+					background-color: rgba(224, 109, 153,0.5);
+				}
+				#blue.show{
+					background-color: rgba(224, 109, 153,0.5);
+				}
+
+			/*masks*/
+				#masks {
+					margin-top: -104px;
+					margin-left: 420px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: black;
+				}
+				#masks:hover{
+					background-color: rgba(224, 109, 153,0.5);
+				}
+				#masks.show{
+					background-color: rgba(224, 109, 153,0.5);
+				}
+
+			/*movie theatres*/
+				#movietheatres {
+					margin-top: 4px;
+					margin-left: 140px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: black;
+				}
+				#movietheatres:hover{
+					background-color: rgba(224, 109, 153,0.5);
+				}
+				#movietheatres.show{
+					background-color: rgba(224, 109, 153,0.5);
+				}
+
+			/*circuses*/
+				#circuses {
+					margin-top: -32px;
+					margin-left: 280px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: black;
+				}
+				#circuses:hover{
+					background-color: rgba(224, 109, 153,0.5);
+				}
+				#circuses.show{
+					background-color: rgba(224, 109, 153,0.5);
+				}
+
+			/*lack of sunlight*/
+				#lackofsunlight {
+					margin-top: -32px;
+					margin-left: 420px;
+					height: 25px;
+					width: 130px;
+					text-align: center;
+					padding-top: 5px;
+					padding-left: 0px;
+					background-color: black;
+				}
+				#lackofsunlight:hover{
+					background-color: rgba(224, 109, 153,0.5);
+				}
+				#lackofsunlight.show{
+					background-color: rgba(224, 109, 153,0.5);
+				}
+
+/*COMPULSIONS*/ 
+	#handwash{
+		display: inline-block;
+		position: fixed;
+		margin-top: 11px;
+		margin-left: 0px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+	#rub{
+		display: inline-block;
+		position: fixed;
+		margin-top: 37px;
+		margin-left: 0px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+
+	}
+	#scratch{
+		display: inline-block;
+		position: fixed;
+		margin-top: 63px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+
+	}
+	#selfharm{
+		display: inline-block;
+		position: fixed;
+		margin-top: 89px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+
+	}
+	#spit{
+		display: inline-block;
+		position: fixed;
+		margin-top: 115px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+
+	}
+	#washorcleanthings{
+		display: inline-block;
+		position: fixed;
+		margin-top: 141px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+	#touchpeople{
+		display: inline-block;
+		position: fixed;
+		margin-top: 167px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+
+	}
+	#touchthings{
+		display: inline-block;
+		position: fixed;
+		margin-top: 193px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+
+	}
+	#touchobjects{
+		display: inline-block;
+		position: fixed;
+		margin-top: 219px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+
+	}
+	#repeatwords{
+		display: inline-block;
+		position: fixed;
+		margin-top: 245px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+
+	}
+	#repeatactions{
+		display: inline-block;
+		position: fixed;
+		margin-top: 271px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+
+	}
+	#peoplerepeatwords{
+		display: inline-block;
+		position: fixed;
+		margin-top: 297px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+	#peoplerepeatactions{
+		display: inline-block;
+		position: fixed;
+		margin-top: 323px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+	#repeatquestions{
+		display: inline-block;
+		position: fixed;
+		margin-top: 349px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+	#reread{
+		display: inline-block;
+		position: fixed;
+		margin-top: 375px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+	#rewatch{
+		display: inline-block;
+		position: fixed;
+		margin-top: 401px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+	#arrangeorrearrange{
+		display: inline-block;
+		position: fixed;
+		margin-top: 427px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+	#destroyobjects{ 
+		display: inline-block;
+		position: fixed;
+		margin-top: 453px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+	#cutpeopleoff{
+		display: inline-block;
+		position: fixed;
+		margin-top: 479px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+	#lackoftrust{ 
+		display: inline-block;
+		position: fixed;
+		margin-top: 505px;
+		height: 22px;
+		width: 300px;
+		font-family: arial;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
