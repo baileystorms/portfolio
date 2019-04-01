@@ -2,7 +2,6 @@
 <head>
 <title>BAILEY STORMS</title>
 <!--style-->
-<link rel="stylesheet" href="theme.css">
 <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 <!--scripts-->
 	<!--jquery-->
@@ -69,13 +68,12 @@
   <div class="vid">
   <iframe src="https://player.vimeo.com/video/327492243" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   </div>
-  <!--<div class="vid">
-      <video width="1240" >
-         <source src="https://vimeo.com/327492243">
-          Your browser does not support the video tag.
-      </video>
-  </div>-->
-  <div class="home"><a href="index.html">(home)</div>
+  <div class="home"><a href="javascript:history.back()">(home)</a></div>
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
 
   </body>
   </html>
