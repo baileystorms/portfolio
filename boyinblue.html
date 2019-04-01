@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>BAILEY STORMS</title>
+<!--style-->
+<link rel="stylesheet" href="theme.css">
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+<!--scripts-->
+	<!--jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!--pollyfill-->
+<script src="https://raw.github.com/TimPietrusky/background-clip-text-polyfill/master/background-clip-text-polyfill.js" </script>
+	<!--drag-->
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<!--mine-->
+<script>
+  $( function() {
+    $( ".drag" ).draggable();
+  } );
+  </script>
+  <style>
+  body{
+  	background-color: black;
+  }
+  a{
+  	color: white;
+  	text-decoration: none;
+  }
+  a:visited{
+  	color: white;
+  	text-decoration: none;
+  }
+  a:hover{
+  	color: red;
+  }
+  .image{
+  	display: inline-block;
+  	position: absolute;
+  	margin-top: 2%;
+  	margin-left: 2%;
+  	border: 10px solid white;
+  }
+  .title{
+  	display: inline-block;
+  	position: absolute;
+  	margin-left: 55%;
+  	margin-top: 25%;
+  	font-family: "courier new", courier;
+  	font-size: 30px;
+  	font-weight: bold;
+  	color: white;
+  	width: 500px;
+  	height: 100px;
+  }
+  .desc{
+  	display: inline-block;
+  	position: absolute;
+  	margin-left: 51.8%;
+  	margin-top:27%;
+  	width: 430px;
+  	height: 400px;
+  	font-family: "courier new", courier;
+  	font-weight: normal;
+  	color: white;
+  }
+  .home{
+  	display: inline-block;
+  	position: fixed;
+  	margin-left: 87%;
+  	margin-top: 3%;
+  	font-family: "courier new", courier;
+  	font-size: 30px;
+  	font-weight: bold;
+  	color: white;
+  }
+  .home:hover{
+  	color: red;
+  }
+  </style>
+  </head>
+  <body>
+	<div class="image"><img src="projects/boyinblue.jpg" width="450px"></div>
+	<div class=title>
+		Boy in Blue (2018)
+	</div>
+	<div class="desc">
+		<blockquote>Oil on Wood, 18" x 12"<br>Portrait of a boy sleeping wrapped in a blue blanket. </blockquote>
+	</div>
+  <div class="home"><a href="javascript:history.back()">(home)</a></div>
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+  </body>
+  </html>
