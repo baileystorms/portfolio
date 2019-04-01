@@ -21,121 +21,6 @@
 	<!--drag-->
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	<!--mine-->
-<script>
-function myFunction() {
-	alert ("page is loaded!");
-}
-  $(function() {
-    $( ".drag" ).draggable();
-  } );
-  </script>
-<script>
-//MODALS//
-$(document).ready(function(){
-		$(".aboutmodal").hide(function(){
-		});
-		$(".about").toggleClass("strike");
-	});
-$(document).ready(function(){
-		$(".about").click(function(){
-			$(".ABOUTMODAL").toggle();
-			//$("#cmabout").toggle();//
-		});
-		$(".about").click(function(){
-			$(".about").toggleClass("strike");
-		});
-	});
-$(document).ready(function(){
-		$(".contactmodal").hide(function(){
-		});
-		$(".contact").toggleClass("strike");
-	});
-$(document).ready(function(){
-		$(".contact").click(function(){
-			$(".contactMODAL").toggle();
-			//$("#cmcontact").toggle();//
-		});
-		$(".contact").click(function(){
-			$(".contact").toggleClass("strike");
-		});
-	});
-//PROJECTS//
-$(document).ready(function(){
-	$(".fineart").click(function(){
-		$(".fineart").toggleClass("strike");
-		$(".fap").toggle();
-		//$("#cmfa").toggle();//
-	});
-});
-$(document).ready(function(){
-	$(".graphicdesign").click(function(){
-		$(".graphicdesign").toggleClass("strike");
-		$(".gdp").toggle();
-		//$("#cmgd").toggle();//
-	});
-});
-$(document).ready(function(){
-	$(".photo").click(function(){
-		$(".photo").toggleClass("strike");
-		$(".php").toggle();
-		//$("#cmpf").toggle();//
-	});
-});
-$(document).ready(function(){
-	$(".video").click(function(){
-		$(".video").toggleClass("strike");
-		$(".vdp").toggle();
-		//$("#cmpf").toggle();//
-	});
-});
-//LIST//
-$(document).ready(function(){
-	$("#cbfa").click(function(){
-		$(".fap").toggle();
-		//$("#cmfa").toggle();//
-	});
-});
-$(document).ready(function(){
-	$("#cbgd").click(function(){
-		$(".gdp").toggle();
-		//$("#cmgd").toggle();//
-	});
-});
-$(document).ready(function(){
-	$("#php").click(function(){
-		$(".php").toggle();
-		//$("#cmpf").toggle();//
-	});
-});
-$(document).ready(function(){
-	$("#vdp").click(function(){
-		$(".vdp").toggle();
-		//$("#cmpf").toggle();//
-	});
-});
-$(document).ready(function(){
-	$("#cbabout").click(function(){
-		$(".aboutmodal").toggle();
-		//$("#cmabout").toggle();//
-	});
-});
-$(document).ready(function(){
-	$("#cbcontact").click(function(){
-		$(".contactmodal").toggle();
-		//$("#cmcontact").toggle();//
-	});
-});
-//Z INDEX SHIT//
-$(document).ready(function(){
-	$(".drag").mouseover(function(){
-		$(this).css("z-index", "9000");
-	});
-	$(".drag").mouseout(function(){
-		$(this).css("z-index", "4");
-	});
-});
-</script>
 
 <style>
 /*BASIC STYLE*/
@@ -598,6 +483,123 @@ div#ocdover a:visited{color:white;}
 </style>
 </head>
 <body>
+<!--MY SCRIPT-->
+<script>
+function myFunction() {
+	alert ("page is loaded!");
+}
+  $(function() {
+    $( ".drag" ).draggable();
+  } );
+  </script>
+<script>
+//MODALS//
+$(document).ready(function(){
+		$(".aboutmodal").hide(function(){
+		});
+		$(".about").toggleClass("strike");
+	});
+$(document).ready(function(){
+		$(".about").click(function(){
+			$(".ABOUTMODAL").toggle();
+			//$("#cmabout").toggle();//
+		});
+		$(".about").click(function(){
+			$(".about").toggleClass("strike");
+		});
+	});
+$(document).ready(function(){
+		$(".contactmodal").hide(function(){
+		});
+		$(".contact").toggleClass("strike");
+	});
+$(document).ready(function(){
+		$(".contact").click(function(){
+			$(".contactMODAL").toggle();
+			//$("#cmcontact").toggle();//
+		});
+		$(".contact").click(function(){
+			$(".contact").toggleClass("strike");
+		});
+	});
+//PROJECTS//
+$(document).ready(function(){
+	$(".fineart").click(function(){
+		$(".fineart").toggleClass("strike");
+		$(".fap").toggle();
+		//$("#cmfa").toggle();//
+	});
+});
+$(document).ready(function(){
+	$(".graphicdesign").click(function(){
+		$(".graphicdesign").toggleClass("strike");
+		$(".gdp").toggle();
+		//$("#cmgd").toggle();//
+	});
+});
+$(document).ready(function(){
+	$(".photo").click(function(){
+		$(".photo").toggleClass("strike");
+		$(".php").toggle();
+		//$("#cmpf").toggle();//
+	});
+});
+$(document).ready(function(){
+	$(".video").click(function(){
+		$(".video").toggleClass("strike");
+		$(".vdp").toggle();
+		//$("#cmpf").toggle();//
+	});
+});
+//LIST//
+$(document).ready(function(){
+	$("#cbfa").click(function(){
+		$(".fap").toggle();
+		//$("#cmfa").toggle();//
+	});
+});
+$(document).ready(function(){
+	$("#cbgd").click(function(){
+		$(".gdp").toggle();
+		//$("#cmgd").toggle();//
+	});
+});
+$(document).ready(function(){
+	$("#php").click(function(){
+		$(".php").toggle();
+		//$("#cmpf").toggle();//
+	});
+});
+$(document).ready(function(){
+	$("#vdp").click(function(){
+		$(".vdp").toggle();
+		//$("#cmpf").toggle();//
+	});
+});
+$(document).ready(function(){
+	$("#cbabout").click(function(){
+		$(".aboutmodal").toggle();
+		//$("#cmabout").toggle();//
+	});
+});
+$(document).ready(function(){
+	$("#cbcontact").click(function(){
+		$(".contactmodal").toggle();
+		//$("#cmcontact").toggle();//
+	});
+});
+//Z INDEX SHIT//
+$(document).ready(function(){
+	$(".drag").mouseover(function(){
+		$(this).css("z-index", "9000");
+	});
+	$(".drag").mouseout(function(){
+		$(this).css("z-index", "4");
+	});
+});
+</script>
+<!--END OF SCRIPT--> 
+
 <div id="wrapper">
 <!--CHECKBOXES/CATEGORIES-->
 <div class="list">
