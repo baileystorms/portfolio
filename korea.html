@@ -2,7 +2,6 @@
 <head>
 <title>BAILEY STORMS</title>
 <!--style-->
-<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 <!--scripts-->
 	<!--jquery-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -104,7 +103,7 @@
   }
   </style>
   </head>
-  
+
   <body>
   <div class="title">korea in 35mm</div>
   <div class="image1"><img src="korea/k351.jpg" width="440px"></div>
@@ -114,6 +113,11 @@
   <div class="image5"><img src="korea/ki357.jpg" width="440px"></div>
   <div class="image6"><img src="korea/ki353.jpg" width="600px"></div>
   <div class="image7"><img src="korea/ki352.jpg" width="600px"></div>
-  <div class="home"><a href="../index.html">(home)</div>
+  <div class="home"><a onclick="goBack()">(home)</div>
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
   </body>
   </html>
