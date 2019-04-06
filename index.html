@@ -166,10 +166,10 @@ div#ocdover a:visited{color:white;}
 	background-color: transparent;
 	display: inline-block;
 	position: absolute;
-	margin-top: 0%;
-	margin-left: 10%;
+	margin-top: 110px;
+	margin-left: 290px;
 	padding: 2px;
-	z-index: 4;
+	z-index: 2;
 }
 
 #boyinblue:hover{
@@ -226,7 +226,7 @@ div#ocdover a:visited{color:white;}
 #ki35{
 	display: inline-block;
 	position: absolute;
-	margin-top: 15%;
+	margin-top: 20%;
 	margin-left: 60%;
 	z-index: 4;
 	opacity: 1;	
@@ -276,9 +276,9 @@ div#ocdover a:visited{color:white;}
 #dealing{
 	display: inline-block;
 	position: absolute;
-	margin-top: 15%;
-	margin-left: 30%;
-	z-index: 5;
+	margin-top: 20%;
+	margin-left: 40%;
+	z-index: 3;
 	opacity: 1;
 	padding: 2px;
 }
@@ -307,7 +307,23 @@ div#ocdover a:visited{color:white;}
     padding: 2px;
     animation: border-dance 2s infinite linear;
 }
-
+#cdmx{
+	display: inline-block;
+	position: absolute;
+	margin-top: -50px;
+	margin-left: 50px;
+	z-index: 2;
+	opacity: 1;
+	padding: 2px;	
+}
+#cdmx:hover{
+	background: linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-position: left top, right bottom, left bottom, right   top;
+    padding: 2px;
+    animation: border-dance 2s infinite linear;
+  }
 /*MODALS*/
 .ABOUTMODAL{
 	position: fixed;
@@ -611,12 +627,6 @@ $(document).ready(function(){
 </div>
 <div class="cont">
 <!--PROJECTS--> 
-	<!--Boy in Blue-->
-	<div class="drag">
-		<div class="fap">
-			<a href="boyinblue.html" target="_self"><img id="boyinblue" src="boyinblue.png" width="200px"></a>
-		</div>
-	</div>
 	<!--Korea in 35mm-->
 	<div class="drag">
 		<div class="php">
@@ -649,14 +659,26 @@ $(document).ready(function(){
 	<div class="drag">
 		<div class="vdp">
 		<div class="gdp">
-			<a href="dwd.html" targe="_blank"><img id="dealing" src="https://media.giphy.com/media/NUupi5X4btWD3BFimi/200w_d.gif" width="260"></a>
+			<a href="dwd.html" targe="_blank"><img id="dealing" src="https://media.giphy.com/media/NUupi5X4btWD3BFimi/200w_d.gif" width="230"></a>
 		</div>
+		</div>
+	</div>
+	<!--Boy in Blue-->
+	<div class="drag">
+		<div class="fap">
+			<a href="boyinblue.html" target="_self"><img id="boyinblue" src="boyinblue.png" width="200px"></a>
 		</div>
 	</div>
 	<!--Ji35-->
 	<div class="drag">
 		<div class="php">
-			<a href="japan.html" targe="_blank"><img id="japan" src="thumb4.png" width="260"></a>
+			<a href="japan.html" targe="_blank"><img id="japan" src="thumb1.png" width="260"></a>
+		</div>
+	</div>
+	<!--CMDXi35-->
+	<div class="drag">
+		<div class="php">
+			<a href="cdmx.html" targe="_self"><img id="cdmx" src="thumb5.png" width="240"></a>
 		</div>
 	</div>
 <!--ABOUT MODAL-->
