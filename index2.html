@@ -21,7 +21,7 @@
 <style>
 /*BASIC STYLE*/
 body{
-	background-color: white;
+	background-color: black;
 }
 
 #wrapper {
@@ -45,11 +45,10 @@ img {
 }
 
 p{
-	/*font-family: 'Permanent Marker', cursive;*/
-	font-family: courier;
+	font-family: arial black;
+	font-weight: bold;
 	text-decoration-line: none; 
 	cursor: pointer;
-	color:white;
 }
 
 div#ocdover a:link {color: white;}
@@ -70,7 +69,8 @@ div#ocdover a:visited{color:white;}
  	margin-top: 0%;
  	margin-left: 0%;
  	z-index: 0;
- 	background-color: white;
+ 	background-color: black;
+ 	padding-bottom: 20px;
  }
 
 /*LIST*/
@@ -83,62 +83,6 @@ div#ocdover a:visited{color:white;}
 	margin-left: 26%;
 	z-index: 2;
 }
-.fineart{
-	position: fixed;
-	display: inline-block;
-	z-index: 2;
-	font-weight: bold;
-	font-size: 15px;
-	font-color: black;
-	width: 75px;
-}
-.photo{
-	position: fixed;
-	display: inline-block;
-	margin-left: 8.5%;
-	z-index: 2;
-	font-weight: bold;
-	font-size: 15px;
-	font-color: black;
-}
-.video{
-	position: fixed;
-	display: inline-block;
-	margin-left: 15%;
-	z-index: 2;
-	font-weight: bold;
-	font-size: 15px;
-	font-color: black;
-}
-.graphicdesign{
-	position: fixed;
-	display: inline-block;
-	z-index: 2;
-	font-weight: bold;
-	font-size: 15px;
-	font-color: black;
-	margin-left: 22%; 
-}
-.about{
-	position: fixed;
-	display: inline-block;
-	margin-left: 36%;
-	width: 50px;
-	z-index: 2;
-	font-weight: bold;
-	font-size: 15px;
-	font-color: black;
-}
-.contact{
-	position: fixed;
-	display: inline-block;
-	margin-left: 43%;
-	width: 75px;
-	z-index: 2;
-	font-weight: bold;
-	font-size: 15px;
-	font-color: black;
-}
 
 .strike {
     position: fixed;
@@ -146,36 +90,124 @@ div#ocdover a:visited{color:white;}
 }
 .strike::before {
     content: '';
-    border-bottom: 2px solid red;
+    border-bottom: 5px solid white;
     width: 100%;
     position: absolute;
-    left: -2px;
-    right: 0;
+    left: 0px;
+    right: 0px;
     top: 50%;
 }
 
-/*PROJECTS*/
-#jovel{
+.links {
 	display: inline-block;
-	margin-top: 5%;
-	margin-left: 28%;
-	z-index: 6;
-	position: absolute;
+	position: fixed;
+	width: 100%;
+	margin-top: 0%;
+	margin-left: 0%;
+	z-index: 2;	
 }
+.work{
+	position: fixed;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 105px;
+	z-index: 2;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+.about{
+	position: fixed;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 850px;
+	padding-right: 30px;
+	width: 90px;
+	z-index: 2;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+
+.contact{
+	position: fixed;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 1005px;
+	width: 162px;
+	z-index: 2;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+
+.fineart{
+	position: fixed;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 157px;
+	z-index: 2;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+.photo{
+	position: fixed;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 220px;
+	padding-right: 30px;
+	width: 90px;
+	z-index: 2;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+.video{
+	position: fixed;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 370px;
+	width: 110px;
+	z-index: 2;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+.graphicdesign{
+	position: fixed;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 515px;
+	width: 295px;
+	z-index: 2;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+
+/*PROJECTS*/
 #boyinblue{
 	background-color: transparent;
 	display: inline-block;
 	position: absolute;
-	margin-top: 110px;
+	margin-top: 200px;
 	margin-left: 290px;
 	padding: 2px;
 	z-index: 2;
+	background: linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-position: left top, right bottom, left bottom, right   top;
+    padding: 2px;
 }
 
 #boyinblue:hover{
 	background: linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%);
     background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
-    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-size: 15px 1px, 15px 1px, 1px 15px, 1px 15px;
     background-position: left top, right bottom, left bottom, right   top;
     padding: 2px;
     animation: border-dance 2s infinite linear;
@@ -193,7 +225,7 @@ div#ocdover a:visited{color:white;}
 .ocd{
 	display: inline-block;
 	position: absolute;
-	background-color: white;
+	background-color: black;
 	width: 202px;
 	height: 102px;
 	margin-top: 10%;
@@ -210,7 +242,7 @@ div#ocdover a:visited{color:white;}
 #ocdover{
 	display: inline-block;
 	position: absolute;
-	background-color: white;
+	background-color: black;
 	width: 180px;
 	height: 80px;
 	margin-top: 11%;
@@ -226,15 +258,20 @@ div#ocdover a:visited{color:white;}
 #ki35{
 	display: inline-block;
 	position: absolute;
-	margin-top: 20%;
+	margin-top: 25%;
 	margin-left: 60%;
 	z-index: 4;
 	opacity: 1;	
+	background: linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-position: left top, right bottom, left bottom, right   top;
+    padding: 2px;
 }
 #ki35:hover{
 	background: linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%);
     background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
-    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-size: 15px 1px, 15px 1px, 1px 15px, 1px 15px;
     background-position: left top, right bottom, left bottom, right   top;
     padding: 2px;
     animation: border-dance 2s infinite linear;
@@ -243,15 +280,19 @@ div#ocdover a:visited{color:white;}
 	background: transparent;
 	position: absolute;
 	display: inline-block;
-	margin-top: 20%;
+	margin-top: 30%;
 	margin-left: 0%;
 	z-index: 2;
-	padding: 2px;
+	background: linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-position: left top, right bottom, left bottom, right   top;
+    padding: 2px;
 }
 #ent:hover{
 	background: linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%);
     background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
-    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-size: 15px 1px, 15px 1px, 1px 15px, 1px 15px;
     background-position: left top, right bottom, left bottom, right   top;
     padding: 2px;
     animation: border-dance 2s infinite linear;
@@ -259,16 +300,21 @@ div#ocdover a:visited{color:white;}
 #mar{
 	display: inline-block;
 	position: absolute;
-	margin-top: 0%;
+	margin-top: 10%;
 	margin-left: 70%;
 	z-index: 5;
 	opacity: 1;
 	padding: 2px;
+	background: linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-position: left top, right bottom, left bottom, right   top;
+    padding: 2px;
 }
 #mar:hover{
 	background: linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%);
     background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
-    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-size: 15px 1px, 15px 1px, 1px 15px, 1px 15px;
     background-position: left top, right bottom, left bottom, right   top;
     padding: 2px;
     animation: border-dance 2s infinite linear;
@@ -276,16 +322,20 @@ div#ocdover a:visited{color:white;}
 #dealing{
 	display: inline-block;
 	position: absolute;
-	margin-top: 20%;
+	margin-top: 35%;
 	margin-left: 40%;
 	z-index: 3;
 	opacity: 1;
-	padding: 2px;
+	background: linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-position: left top, right bottom, left bottom, right   top;
+    padding: 2px;
 }
 #dealing:hover{
 	background: linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%);
     background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
-    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-size: 15px 1px, 15px 1px, 1px 15px, 1px 15px;
     background-position: left top, right bottom, left bottom, right   top;
     padding: 2px;
     animation: border-dance 2s infinite linear;
@@ -293,16 +343,21 @@ div#ocdover a:visited{color:white;}
 #japan{
 	display: inline-block;
 	position: absolute;
-	margin-top: -1%;
+	margin-top: 5%;
 	margin-left: 42%;
 	z-index: 2;
 	opacity: 1;
 	padding: 2px;
+	background: linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-position: left top, right bottom, left bottom, right   top;
+    padding: 2px;
 }
 #japan:hover{
 	background: linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%);
     background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
-    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-size: 15px 1px, 15px 1px, 1px 15px, 1px 15px;
     background-position: left top, right bottom, left bottom, right   top;
     padding: 2px;
     animation: border-dance 2s infinite linear;
@@ -315,21 +370,59 @@ div#ocdover a:visited{color:white;}
 	z-index: 2;
 	opacity: 1;
 	padding: 2px;	
-}
-#cdmx:hover{
-	background: linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%);
+	background: linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%);
     background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
     background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
     background-position: left top, right bottom, left bottom, right   top;
     padding: 2px;
+}
+#cdmx:hover{
+	background: linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 1px, 15px 1px, 1px 15px, 1px 15px;
+    background-position: left top, right bottom, left bottom, right   top;
+    padding: 2px;
     animation: border-dance 2s infinite linear;
   }
+#ports{
+	display: inline-block;
+	position: absolute;
+	margin-top: 500px;
+	margin-left: 850px;
+	z-index: 2;
+	opacity: 1;
+	padding: 2px;	
+	background: linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-position: left top, right bottom, left bottom, right   top;
+    padding: 2px;
+}
+#ports:hover{
+	background: linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(90deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%), linear-gradient(0deg, silver 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 1px, 15px 1px, 1px 15px, 1px 15px;
+    background-position: left top, right bottom, left bottom, right   top;
+    padding: 2px;
+    animation: border-dance 2s infinite linear;
+  }
+  #null{
+	background-color: transparent;
+	display: inline-block;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	margin-top: 60%;
+	margin-left: 50%;
+	z-index: 2;
+}
+
 /*MODALS*/
 .ABOUTMODAL{
 	position: fixed;
 	opacity: 1;
 	margin-top: 0%;
-	margin-left: 10%;
+	margin-left: 310px;
 	width: 600px;
 	height: 400px;
 	background-color: white;
@@ -337,12 +430,13 @@ div#ocdover a:visited{color:white;}
 	z-index: 10;
 }
 .DESC{
-	margin: 6%;
-	font-family: courier;
+	margin: 5%;
+	padding-left: 8px;
+	font-family: arial;
 	font-weight: bold;
-	color:white;
-	font-size: 14px;
-	line-height: 20px;
+	color:black;
+	font-size: 16px;
+	line-height: 25px;
 	z-index: 10;
 }
 
@@ -360,8 +454,9 @@ div#ocdover a:visited{color:white;}
 .INFO{
 	margin-top: 2%;
 	margin-left: 10%;
-	font-family: courier;
+	font-family: arial;
 	font-weight: bold;
+	color: black;
 	font-size: 20px;
 	z-index: 10;	
 }
@@ -519,6 +614,15 @@ $(document).ready(function(){
 	});
 //PROJECTS//
 $(document).ready(function(){
+	$(".work").click(function(){
+		$(".work").toggleClass("strike");
+		$(".fap").toggle();
+		$(".gdp").toggle();
+		$(".php").toggle();
+		$(".vdp").toggle();
+	})
+})
+$(document).ready(function(){
 	$(".fineart").click(function(){
 		$(".fineart").toggleClass("strike");
 		$(".fap").toggle();
@@ -597,23 +701,25 @@ $(document).ready(function(){
 
 <div id="wrapper">
 <!--CHECKBOXES/CATEGORIES-->
-<div class="list">
-	<!--<div id="cbfa"></div>
-	<div id="cmfa"></div>-->
+<div class="links">
 	<p class="fineart">FINE ART</p>
-	<!--<div id="cbgd"></div>
-	<div id="cmgd"></div>-->
 	<p class="photo">PHOTO</p>
-	<!--<div id="cbpf"></div>
-	<div id="cmpf"></div>-->
 	<p class="video">VIDEO</p>
 	<p class="graphicdesign">GRAPHIC DESIGN</p>
-	<!--<div id="cbabout"></div>
-	<div id="cmabout"></div>-->
 	<p class="about">ABOUT</p>
-	<!--<div id="cbcontact"></div>
-	<div id="cmcontact"></div>-->
 	<p class="contact">CONTACT</p>
+	<!--<p class="bailey">BAILEY STORMS</p>-->
+</div>
+
+<!--
+<div class="list">
+	<p class="fineart">FINE ART</p>
+	<p class="photo">PHOTO</p>
+	<p class="video">VIDEO</p>
+	<p class="graphicdesign">GRAPHIC DESIGN</p>
+	<p class="about">ABOUT</p>
+	<p class="contact">CONTACT</p>
+-->
 </div>
 <div class="cont">
 <!--PROJECTS--> 
@@ -671,9 +777,17 @@ $(document).ready(function(){
 			<a href="cdmx.html" targe="_self"><img id="cdmx" src="thumb5.png" width="240"></a>
 		</div>
 	</div>
+	<!--PORTS-->
+	<div class="drag">
+		<div class="php">
+			<a href="ports.html" targe="_self"><img id="ports" src="thumb6.png" width="200"></a>
+		</div>
+	</div>
+
+	<div id="null"></div>
 <!--ABOUT MODAL-->
  <div class="aboutmodal">
- 	<div class="desc">I am a Brooklyn-based artist and designer originally from Durham, North Carolina. My work ranges from fine art, photography and video, to writing, motion graphics and graphic design and is based on the simple belief that meaningful visuals can make meaningful impact. Upcoming projects include “Subway Portraits,” a collection of drawings and paintings detailing strangers on the subway, “T/HERE,” a conversation between my father and I via pages from his sketchbook in conjunction with letters I have written to him since his death, “American Waters,” a film about my mother sailing and recentering herself after tremendous loss, and “Anonymous,” a collection of portraits addressing addiction. After recieving my BFA from Parsons in 2020, I hope to continue working on my own creative projects as well as collaborate with media companies accross the globe. </div>
+ 	<div class="desc">I am a Brooklyn-based multi-medium artist and designer originally from Durham, North Carolina. My work ranges from fine art, photography and video, to writing, motion graphics and graphic design and is based on the simple belief that meaningful visuals can make meaningful impact. Upcoming projects include “Subway Portraits,” a collection of drawings and paintings detailing strangers on the subway, “T/HERE,” a conversation between my father and I via pages from his sketchbook in conjunction with letters I have written to him since his death, “American Waters,” a film about my mother sailing and recentering herself after tremendous loss, and “Anonymous,” a collection of portraits addressing addiction. After recieving my BFA from Parsons in 2020, I hope to continue working on my own creative projects as well as collaborate with media companies accross the globe.</div>
 </div>
 
 <!--CONTACT MODAL-->
